@@ -1,14 +1,14 @@
 name: py_scripts
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
   schedule:
     # 时间是按UTC设置的，实际执行时间，则自动按东八区执行
-    # 即+8小时，故实际执行时间为：12点
-    - cron: 00 04 * * *
+    # 即+8小时，故实际执行时间为：12:25
+    - cron: 25 04 * * *
 
 jobs:
   build:
