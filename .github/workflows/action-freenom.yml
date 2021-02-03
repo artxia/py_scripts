@@ -15,11 +15,11 @@
 name: 'Freenom Auto Renew'
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: 0 5 * * *
+#  push:
+#    branches:
+#      - master
+#  schedule:
+#    - cron: 0 5 * * *
 jobs:
   auto_renew:
     runs-on: ubuntu-18.04
