@@ -1,11 +1,11 @@
 name: 'CloudFlare2DNS'
 
 on:
-  push:
-    branches: 
-      - master
-  schedule:
-    - cron: '*/16 * * * *'
+#  push:
+#    branches: 
+#      - master
+#  schedule:
+#    - cron: '*/16 * * * *'
 
 jobs:
   build:
